@@ -11,7 +11,7 @@ const MyOrders = () => {
            fetch('https://fierce-temple-41087.herokuapp.com/myorders')
            .then(res => res.json())
            .then(data => setMyOrders(data))
-    },[])
+    },[myOrders])
     
             const foundService = myOrders.filter(ser => ser.email === email);
          
