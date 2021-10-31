@@ -14,7 +14,7 @@ import TourDetails from './components/Home/TourDetails/TourDetails';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import PlaceOrder from './components/PlaceOrder/PlaceOrder';
 import AddTour from './components/AddTour/AddTour';
-import MyBooking from './components/MyBooking/MyBooking';
+import AllBooking from './components/AllBooking/AllBooking';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import NotFound from './components/NotFound/NotFound';
@@ -36,8 +36,8 @@ function App() {
                    <Route path="/placeorder">
                         <PlaceOrder></PlaceOrder>
                    </Route>
-                   <PrivateRoute path="/mybooking">
-                        <MyBooking></MyBooking>
+                   <PrivateRoute path="/allbooking">
+                        <AllBooking></AllBooking>
                    </PrivateRoute>
                    <PrivateRoute path="/myorders">
                         <MyOrders></MyOrders>

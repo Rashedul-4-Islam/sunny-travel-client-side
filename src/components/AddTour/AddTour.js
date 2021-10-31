@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import './AddTour.css'
 
 const AddTour = () => {
     const { register, handleSubmit,reset, formState: { errors } } = useForm();
@@ -19,7 +20,7 @@ const AddTour = () => {
         })
     };
     return (
-        <div className="bg-dark text-light my-5 py-3 w-50 m-auto">
+        <div className="bg-dark text-light my-5 py-3 add-tour m-auto">
             <h2 className="mt-5">Add Tour</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
 
