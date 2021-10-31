@@ -1,0 +1,43 @@
+.logo{
+    margin-left: -100px;
+    /* font-weight: 900; */
+    font-size: 2rem;
+}
+.sunny{
+    margin-top: 20px;
+    font-weight: 900;
+}
+.logo div{
+    display: flex;
+}
+.logo img{
+    width: 20%;
+}
+.buttonss{
+    display: flex;
+}
+.head-button{
+    width: 6rem;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: -20px; 
+}
+.dyna-route{
+    display: flex;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        margin-left: -90px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .logo div{
+        display: block;
+    }
+     .dyna-route{
+         display: block;
+     }
+}

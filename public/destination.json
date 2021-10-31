@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Cox's Bazar",
+        "img": "https://i.ytimg.com/vi/N1IyejsqLPA/hqdefault.jpg",
+        "cost": 500,
+        "description":"Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south."
+    },
+    {
+        "name": "Maldives",
+        "img": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbGRpdmVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+        "cost": 1050,
+        "description":"The Maldives tour offers some of the best beaches, luxurious over-water villas, beautiful corals, and azure waters. Maldives tourism consists of more than 1000 islands, and island hopping is ideal for making the most of your Maldives holidays."
+    },
+    {
+        "name": "Costa Rica",
+        "img": "https://abtravelexpert.com/wp-content/uploads/2021/03/Volcano-National-Park-Costa-Rica.jpg",
+        "cost": 1300,
+        "description":"Costa Rica has to several pristine beaches, volcanoes, hot springs, caves, rainforests, mountains, waterfalls and more. Costa Rica's impressive biodiversity is what makes it a key destination.."
+    },
+    {
+        "name": "China Great Wall",
+        "img": "https://mediaim.expedia.com/destination/1/dd5ff7a664272bd837c8f42f3bbcb5cd.jpg?impolicy=fcrop&w=536&h=384&q=high",
+        "cost": 1550,
+        "description":"Over 10 million people visit the Great Wall of China every year. The most famous section of the Great Wall-Badaling, had been visited by over 300 heads of state and VIPs from around the world, the first of which was Soviet."
+    },
+    {
+        "name": "Bali",
+        "img": "https://www.viceroybali.com/wp-content/uploads/2020/08/viceroy-bali-main-pool-evening.jpg",
+        "cost": 1220,
+        "description":"Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple."
+    },
+    {
+        "name": "Miami Beach",
+        "img": "https://www.planetware.com/photos-large/USFL/florida-miami-south-beach.jpg",
+        "cost": 2500,
+        "description":"Miami Beach offers a variety that goes far beyond sun and sand, encompassing world-famous nightlife and world-renowned art galleries, first-class hotels and second-to-none dining, designer shopping and a unique architectural style that makes it one of the world's most visually distinctive regions."
+    },
+    {
+        "name": "Nepal Himalay",
+        "img": "https://i.pinimg.com/736x/f7/a0/bd/f7a0bdecb557122d31de2e78369992c4--travel-nepal-nepal-kathmandu.jpg",
+        "cost": 500,
+        "description":"Though the Himalayas' natural beauty draws in thousands of tourists a year, one of the main reasons so many people travel to the region is to take on the lofty peaks themselves. The Himalayas are home to the world's tallest mountain, and scaling it is a true feat for any skilled mountain climber."
+    },
+    {
+        "name":"Santorini",
+        "img":"https://www.planetware.com/photos-large/GR/greece-santorini-fira-view-out-to-sea.jpg",
+        "cost":2300,
+        "description":"The most famous of Santorini beaches is the Red beach, while particularly popular are Perissa beach, Kamari beach and Perivolos beach."
+    },
+    {
+        "name":"Thailand",
+        "img":"https://www.planetware.com/photos-large/THA/thailand-railay-beach.jpg",
+        "cost":1400,
+        "description":"The best to visit Thailand is during the cool and dry season between November and early April, when temperatures range from 84°F to 97°F. However, the climate varies throughout the country, so you can visit all year round.."
+    }
+]
+    {
+        "name":"Sydney",
+        "img":"./images/tour/tour-1.jpg",
+        "cost":2875,
+        "description":"Sydney is famous for its sparkling waterfront setting, and one of the most popular things to do in Sydney Harbour is a sightseeing cruise. "
+    }
+   
+
+]

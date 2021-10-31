@@ -1,0 +1,13 @@
+.about-us{
+    background-image: url(https://roam.qodeinteractive.com/wp-content/uploads/2017/08/about-title-img.jpg);
+    height: 75vh;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us h2{
+    padding-top: 10rem;
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+}

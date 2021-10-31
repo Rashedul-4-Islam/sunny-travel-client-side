@@ -1,0 +1,24 @@
+.review{
+    background-image: url(http://tourtoday.com.bd/wp-content/uploads/2017/07/Ratargul-Swamp-Forest.jpg);
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+
+}
+.caro-item{
+    height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+   .review{
+       height: 100vh;
+   }
+   .caro-item{
+       width: 100vw;
+       height: 70vh;
+   }
+  }
