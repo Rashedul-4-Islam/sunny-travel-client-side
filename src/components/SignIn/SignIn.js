@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLocation,useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import './SignIn.css'
 
 const SignIn = () => {
     const {signInWithGoogle} = useAuth();
@@ -17,7 +18,7 @@ const SignIn = () => {
     return (
         <div>
             <div className="row">
-                <div className="col-12 col-md-6 my-5 bg-dark text-light py-3 w-25 m-auto rounded">
+                <div className="col-12 col-md-6 my-5 bg-dark text-light py-3 login m-auto rounded">
                     <h3>Sign In</h3>
                     <form action="">
                         <input className="form-control w-75 m-auto mb-2" type="email" placeholder="email" />
