@@ -45,7 +45,7 @@ const TourDetails = () => {
                     <h3>{ExactItem[0]?.name}</h3>
                     <p className="w-75 m-auto">{ExactItem[0]?.description}</p>
                     <p className="mt-3 fw-bold">Tour-Cost:$ {ExactItem[0]?.cost}</p>
-                    <Link onClick={() => handlebooking(ExactItem[0])} className="btn btn-danger mt-3 mx-3" to="/mybooking"  ><span><i className="fas fa-hand-pointer"></i></span> PlaceOrder</Link>
+                    <Link onClick={() => handlebooking(ExactItem[0])} className="btn btn-danger mt-3 mx-3" to="/myorders"  ><span><i className="fas fa-hand-pointer"></i></span> PlaceOrder</Link>
                     <Link to="/homepage" className="btn btn-danger mt-3"><span><i className="fas fa-home"></i></span></Link>
                     </div>
                     </div>

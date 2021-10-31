@@ -22,7 +22,8 @@ const Header = () => {
                
                 {
                     user.displayName && <div className="dyna-route">
-                    <Nav.Link as={Link} to="/mybooking">My Booking</Nav.Link>
+                    <Nav.Link as={Link} to="/myorders">My Orders</Nav.Link>
+                    <Nav.Link as={Link} to="/mybooking">All Orders</Nav.Link>
                    <Nav.Link as={Link} to="/addtour">Add Tour</Nav.Link>
                     </div>
                 }

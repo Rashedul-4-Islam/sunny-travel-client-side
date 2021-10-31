@@ -31,7 +31,7 @@ const MyBooking = () => {
 
     return (
         <div className="my-5">
-            <h1 className="fw-bold">My Booking</h1>
+            <h1 className="fw-bold">All Client Booking</h1>
             <div>
             <Row xs={1} md={2} className="g-5 mx-4 mt-3">
                 {orders.map(order => (
@@ -45,6 +45,7 @@ const MyBooking = () => {
                     <div className="card-body">
                         <h3 className="card-title fw-bold">{order.name}</h3>
                         <p className="card-text fw-bold">Cost : {order.cost}</p>
+                        <p className="card-text fw-bold">Email : {order.email}</p>
                         <button onClick={() => handleDelete(order._id)} className="btn btn-danger w-50 m-auto">cancel</button> 
                     </div>
                     </div>
