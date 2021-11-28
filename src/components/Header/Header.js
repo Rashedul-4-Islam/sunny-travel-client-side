@@ -52,7 +52,7 @@ const Header = () => {
                     </div>
                 }
                  {
-                        (!user?.email) && <Link to="/signin" className="btn btn-danger ms-3 fw-bold">Sign In</Link> 
+                        (!user?.email) && <Link to="/signin" className="btn btn-danger signin  fw-bold">Sign In</Link> 
                  }
                   </div>
                 </nav>

@@ -118,7 +118,7 @@ const Review = () => {
                     <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
-                        <img src="./images/visitors/user3.png" className="img-fluid rounded-start" alt="..."/>
+                        <img src="./images/visitors/user5.png" className="img-fluid rounded-start" alt="..."/>
                         </div>
                         <div className="col-md-8">
                         <div className="card-body">
@@ -134,11 +134,11 @@ const Review = () => {
                     <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
-                        <img src="./images/visitors/user4.png" className="img-fluid rounded-start" alt="..."/>
+                        <img src="./images/visitors/user6.png" className="img-fluid rounded-start" alt="..."/>
                         </div>
                         <div className="col-md-8">
                         <div className="card-body">
-                            <h5 className="card-title">Himalay Tour</h5>
+                            <h5 className="card-title">Bali Tour</h5>
                             <p className="card-text">Thank you for all your organisation of the tour, we had a fantastic time. We were very happy with.</p>
                             <p className="card-text fw-bold">Susan Dey</p>
                         </div>
@@ -150,11 +150,11 @@ const Review = () => {
                     <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
-                        <img src="./images/visitors/user5.png" className="img-fluid rounded-start" alt="..."/>
+                        <img src="./images/visitors/user7.png" className="img-fluid rounded-start" alt="..."/>
                         </div>
                         <div className="col-md-8">
                         <div className="card-body">
-                            <h5 className="card-title">Tapei</h5>
+                            <h5 className="card-title">Nayagra</h5>
                             <p className="card-text">Thank you for all your organisation of the tour, we had a fantastic time. We were very happy with.</p>
                             <p className="card-text fw-bold">Tim David</p>
                         </div>
