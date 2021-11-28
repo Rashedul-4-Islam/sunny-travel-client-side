@@ -34,10 +34,13 @@
         font-size: 1rem;
         font-weight: 400;
     }
+    .buttonss{
+        margin-left: 90px;
+    }
     .logo div{
         display: block;
     }
      .dyna-route{
-         display: block;
+         display: flex;
      }
 }

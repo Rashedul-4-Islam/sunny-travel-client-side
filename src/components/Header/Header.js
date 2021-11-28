@@ -36,7 +36,7 @@ const Header = () => {
                             user.displayName ? <h6 className="text-dark fw-bold ms-1 fs-5 mt-3">{user?.displayName} </h6>
                             :
                             <p className="text-dark fw-bold ms-3 mt-2">{user?.email}</p>
-                         }
+                           }
                     
                            </div>
                            <NavDropdown.Divider />
