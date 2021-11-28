@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar} from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Header.css'
@@ -16,42 +16,44 @@ const Header = () => {
                 </div> </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="me-auto">
-                <Nav.Link as={Link} to="/homepage">Home</Nav.Link>
-                <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
-               
-                {
-                    user.displayName && <div className="dyna-route">
-                    <Nav.Link as={Link} to="/myorders">My Orders</Nav.Link>
-                    <Nav.Link as={Link} to="/allbooking">All Orders</Nav.Link>
-                   <Nav.Link as={Link} to="/addtour">Add Tour</Nav.Link>
-                    </div>
-                }
-                  <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+                <Nav className="ms-auto">
+                <Nav.Link as={Link} to="/homepage" className="fw-bold">Home</Nav.Link>
+                <Nav.Link as={Link} to="/blog" className="fw-bold">Blog</Nav.Link>
+                <Nav.Link as={Link} to="/about" className="fw-bold">About Us</Nav.Link>
                 </Nav>
               
                 <nav className="d-flex align-items-center">
-                <div>
-                    <img className="w-50 rounded-pill" src={user?.photoURL} alt="" />
-                </div>
                   
                   <div className="buttonss">
                   {
-                            user.displayName ? <p className="text-light me-3 mt-3">{user?.displayName} </p>
-                            :
-                            <p className="text-light me-3 mt-2">{user?.email}</p>
-                        }
-                    
-                    {
-                        user?.email ?  <div className="d-flex me-4">
-                        {/* <button className="btn btn-warning head-button">Admin</button> */}
-                        <button onClick={logOut} className="btn btn-danger ms-4 head-button">Log Out</button>
-                        </div>  
-                        :
-                        <Link to="/signin" className="btn btn-danger me-3 fw-bold">Sign In</Link>
+                    user.displayName && <div className="dyna-route">
                         
-                    }
-                  
+                            <img className="w-25 p-0 ms-5 rounded-pill" src={user?.photoURL} alt="" />
+                        
+                          <NavDropdown id="collasible-nav-dropdown">
+                           <div>
+                           {
+                            user.displayName ? <h6 className="text-dark fw-bold ms-1 fs-5 mt-3">{user?.displayName} </h6>
+                            :
+                            <p className="text-dark fw-bold ms-3 mt-2">{user?.email}</p>
+                         }
+                    
+                           </div>
+                           <NavDropdown.Divider />
+                            <NavDropdown.Item as={Link} to="/myorders">My Orders</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/allbooking">All Orders</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/addtour">Add Tour</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            {
+                                user.email && <button onClick={logOut} className="btn btn-danger ms-4 head-button">Log Out</button>
+                            }
+                        </NavDropdown>
+                 
+                    </div>
+                }
+                 {
+                        (!user?.email) && <Link to="/signin" className="btn btn-danger ms-3 fw-bold">Sign In</Link> 
+                 }
                   </div>
                 </nav>
             </Navbar.Collapse>

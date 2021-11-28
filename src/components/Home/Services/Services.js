@@ -31,7 +31,7 @@ const Services = () => {
                             {service.description}
                         </Card.Text>
                         <Card.Text className="fw-bold">
-                           cost : ${service.cost}
+                           Price : ${service.cost}
                         </Card.Text>
                         </Card.Body>
 
