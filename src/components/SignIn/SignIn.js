@@ -16,7 +16,7 @@ const SignIn = () => {
       })
     }
     return (
-        <div>
+        <div className='container-fluid'>
             <div className="row">
                 <div className="col-12 col-md-6 my-5 bg-dark text-light py-3 login m-auto rounded">
                     <h3>Sign In</h3>

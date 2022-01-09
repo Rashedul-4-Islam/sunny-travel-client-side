@@ -28,7 +28,8 @@ const Header = () => {
                   {
                     user.displayName && <div className="dyna-route">
                         
-                            <img className="w-25 p-0 ms-5 rounded-pill" src={user?.photoURL} alt="" />
+                            {/* <img className="w-25 p-0 ms-5 rounded-pill" src={user?.photoURL} alt="" /> */}
+                            <p className='text-light ps-3 pt-2'>{user?.displayName}</p>
                         
                           <NavDropdown id="collasible-nav-dropdown">
                            <div>

@@ -3,8 +3,8 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footers">
-            <div className="bg-dark text-light mt-5 pt-4">
+        <div className="footers container-fluid">
+            <div className="row bg-dark text-light mt-5 pt-4">
                 <div className="row">
                     <div className="col-6 col-md-3">
                         <h3 className="text-warning fw-bold">SUNNY TRAVEL</h3>
@@ -21,12 +21,12 @@ const Footer = () => {
                     </div>
                     <div className="col-6 col-md-3">
                         <h5>Subscribe to our Newsletter</h5>
-                        <form className="ms-5">
+                        <form className="ps-5">
                             <input  className="form-control w-75 mt-3" type="text" placeholder="name" />
                             <input className="form-control w-75 mt-2" type="email" placeholder="email" />
                             
                         </form>
-                        <button className="btn btn-info mt-3 w-50 me-4">SUBSCRIBE</button>
+                        <button className="btn btn-info mt-3 w-50 pe-4">SUBSCRIBE</button>
                     </div>
                     <div className="col-6 col-md-3">
                         <h4>Follow Us</h4>
