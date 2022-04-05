@@ -13,6 +13,11 @@
     height: 50vh;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1400px) {
+   .review{
+       height: 75vh;
+   }
+  }
 @media only screen and (max-width: 600px) {
    .review{
        height: 100vh;
